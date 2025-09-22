@@ -10,10 +10,10 @@ Content-Type: application/json
 GET http://localhost:5000/todos
 
 ###
-GET http://localhost:5000/todos/3
+GET http://localhost:5000/todos/:id
 
 ###
-PUT http://localhost:5000/todos/3
+PUT http://localhost:5000/todos/:id
 Content-Type: application/json
 
 {
