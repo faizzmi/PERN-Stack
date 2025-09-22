@@ -1,0 +1,26 @@
+###
+POST http://localhost:5000/todos
+Content-Type: application/json
+
+{
+  "description": "[as]"
+}
+
+###
+GET http://localhost:5000/todos
+
+###
+GET http://localhost:5000/todos/3
+
+###
+PUT http://localhost:5000/todos/3
+Content-Type: application/json
+
+{
+  "description": "learn data analytics"
+}
+
+###
+DELETE http://localhost:5000/todos/4
+Content-Type: application/json
+
